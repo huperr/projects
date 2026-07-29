@@ -8,7 +8,7 @@ function press(input) {
 }
 
 function clear() {
-  display.value = " ";
+  display.value = "";
 }
 
 function calculate() {
