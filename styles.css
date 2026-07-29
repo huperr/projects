@@ -1,0 +1,67 @@
+body{
+  padding: 25px;
+  font-family: 'Comic Sans MS'; /* font for all */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EBEBEB;
+}
+button { /* style of all buttons */
+  color: white;
+  padding: 10px; /* we all like smol button right */
+  border-radius: 25px; 
+  border: none;
+  margin: 3px;
+  font-size: 30px;
+  width: 60px;   /* make the button square */
+  height: 60px;
+  cursor: pointer;
+}
+/* the color of the button */
+.button {
+  background-color: #383838;
+}
+.operator-button {
+  background-color: orange; /* orange is the best color */
+}
+.container { /* the biggest box */
+  background-color: black;
+  margin: 12px;
+  padding: 5px;
+  border-radius: 12px;
+  overflow: hidden; 
+  max-width: 380px;
+}
+.display { /* the display */
+  background-color: #262626;
+  padding: 15px;
+  margin: 7px;
+  border: none; /* remove the input border thingy */
+  border-radius: 12px;
+  font-size: 30px;
+  color: white;
+  box-sizing: border-box;
+  width: calc(100% - 14px); /* son */
+}
+.buttonzones { /* the big box which has smol boxes */
+  background-color: #2E2E2E;
+  border-radius: 6px;
+  padding: 12px;
+  margin: 7px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+/* -------------------------the effect zone-------------------------------- */
+button:hover{
+  background-color: #3D3D3D;
+}
+button:active{
+  background-color: #4A4949;
+}
+.operator-button:hover {
+  background-color: #FFB31A; 
+}
+.operator-button:active {
+  background-color: #FFC347; 
+}
