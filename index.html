@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1>basic calculator >:D</h1>
+      <p>have fun lol ig idk</p>
+      <div class="container">
+        <!--the display-->
+        <input type="text" class="display" id="input" readonly>
+        <!--the button zone-->
+        <div class="buttonzones">
+          <!--wow theres lotsa buttons-->
+          <button class="operator-button" onclick="press('+')">+</button>
+          <button class="button" onclick="press('7')">7</button>
+          <button class="button" onclick="press('8')">8</button>
+          <button class="button" onclick="press('9')">9</button>
+          <button class="operator-button" onclick="press('-')">-</button>
+          <button class="button" onclick="press('4')">4</button>
+          <button class="button" onclick="press('5')">5</button>
+          <button class="button" onclick="press('6')">6</button>
+          <button class="operator-button" onclick="press('*')">*</button>
+          <button class="button" onclick="press('1')">1</button>
+          <button class="button" onclick="press('2')">2</button>
+          <button class="button" onclick="press('3')">3</button>
+          <button class="operator-button" onclick="press('/')">/</button>
+          <button class="button" onclick="press('0')">0</button>
+          <button class="operator-button" onclick="press('.')">.</button>
+          <button class="operator-button" onclick="calculate()">=</button> <!--calculate button-->
+          <button class="operator-button" onclick="clear()">C</button> <!--clear all-->
+        </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
