@@ -10,11 +10,7 @@ function press(input) {
     display.value += input; 
   }
 }
-
-function clear() {
-  display.value = "0";
-}
-
+//rip clear() cuz it's so useless
 function calculate() {
   try {
     display.value = eval(display.value)
