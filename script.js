@@ -5,12 +5,12 @@ const display = document.getElementById("input"); //the result
 
 function press(input) {
   if (display.value === "0") { //this prevent u from doing 07 or smth similar
-    display.value += input; //this thing put a number or a character into the display text
+    display.value = input; //this thing put a number or a character into the display text
   } else {
     display.value += input; 
   }
 }
-function clear() {
+function clearInput() {
   display.value = ""
 }
 function calculate() {
